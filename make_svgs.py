@@ -55,6 +55,11 @@ def hero():
     <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9dde8"/><stop offset=".5" stop-color="#8a90a8"/><stop offset="1" stop-color="#3a3f55"/></linearGradient>
     <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1458"/><stop offset="1" stop-color="#0a0418"/></linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <!-- soft edges: backdrop fades to transparent so it blends into GitHub's page colour (dark or light) -->
+    <linearGradient id="fxg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset=".12" stop-color="#fff"/><stop offset=".88" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <linearGradient id="fyg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset=".2" stop-color="#fff"/><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <mask id="fx" maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><rect width="{W}" height="{H}" fill="url(#fxg)"/></mask>
+    <mask id="fy" maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><rect width="{W}" height="{H}" fill="url(#fyg)"/></mask>
   </defs>
   <style>
     .tw {{ fill:#fff; animation: tw ease-in-out infinite alternate; }}
@@ -83,12 +88,14 @@ def hero():
     @media (prefers-reduced-motion: reduce) {{ * {{ animation: none !important; }} }}
   </style>
 
+  <g mask="url(#fy)"><g mask="url(#fx)">
   <rect width="{W}" height="{H}" fill="url(#sky)"/>
   <rect width="{W}" height="{H}" fill="url(#neb1)"/>
   <rect width="{W}" height="{H}" fill="url(#neb2)"/>
   <g>
     {stars(140, W, H, 330)}
   </g>
+  </g></g>
   <g class="shoot"><line x1="1150" y1="20" x2="1215" y2="-12" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".9"/></g>
 
   <!-- ringed planet -->
@@ -124,11 +131,13 @@ def hero():
   </g>
 
   <!-- planet surface -->
+  <g mask="url(#fy)"><g mask="url(#fx)">
   <path d="M0 360 C120 330 220 372 340 350 S560 318 700 352 S940 380 1060 346 S1180 340 1200 352 V420 H0 Z" fill="url(#ground)"/>
   <path d="M0 382 C160 370 300 396 470 380 S780 392 940 384 S1140 376 1200 386 V420 H0 Z" fill="#0a0418"/>
   <g fill="#0a0418">
     <path d="M120 362 l6 -26 l6 26 z"/><path d="M560 346 l5 -20 l5 20 z"/><path d="M1130 350 l6 -24 l6 24 z"/>
   </g>
+  </g></g>
   <ellipse cx="860" cy="372" rx="100" ry="10" fill="#7dffb2" opacity=".25" class="beam"/>
 
   <!-- text -->
