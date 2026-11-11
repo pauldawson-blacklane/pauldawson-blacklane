@@ -1,0 +1,12 @@
+{
+  "weeks": {
+    "2026-11-09": {
+      "banner": "original launch design: deep space, code, classic",
+      "wisdom": {
+        "Mon": "If your CI role can `iam:PassRole` to `*`, your pipeline isn't deploying code, it's deploying an attacker's ambitions.",
+        "Tue": "Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.",
+        "Wed": "A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys."
+      }
+    }
+  }
+}

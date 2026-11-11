@@ -3,6 +3,11 @@
 </p>
 
 <!-- wisdom:start -->
+### 🧠 Words of wisdom · week of 9 Nov 2026
+
+- **Monday:** If your CI role can `iam:PassRole` to `*`, your pipeline isn't deploying code, it's deploying an attacker's ambitions.
+- **Tuesday:** Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.
+- **Wednesday:** A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
@@ -21,6 +26,12 @@
 <img src="assets/ufo-divider.svg" alt="" width="100%">
 
 <!-- calendar:start -->
+### 📅 UFO sightings
+
+<table>
+<tr><th>Month</th><th colspan="5">Mondays · click a date to see that week's UFO and words of wisdom</th></tr>
+<tr><td><b>Nov 2026</b></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-09/README.md">🛸 <b>9</b></a></td><td></td><td></td><td></td><td></td></tr>
+</table>
 <!-- calendar:end -->
 
 <p align="center"><sub>📡 Transmission ends. The truth is out there, probably in the logs.</sub></p>
