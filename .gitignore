@@ -3,3 +3,6 @@ preview.png
 __pycache__/
 p_*.html
 p_*.png
+__pycache__/
+*.pyc
+logs/

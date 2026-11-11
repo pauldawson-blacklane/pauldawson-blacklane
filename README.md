@@ -2,6 +2,9 @@
   <img src="assets/ufo-hero.svg" alt="A UFO beaming up a block of code above a purple planet, next to the name Paul Dawson" width="100%">
 </p>
 
+<!-- wisdom:start -->
+<!-- wisdom:end -->
+
 ### 👽 Equipment on board
 
 <p>
@@ -16,5 +19,8 @@
 </p>
 
 <img src="assets/ufo-divider.svg" alt="" width="100%">
+
+<!-- calendar:start -->
+<!-- calendar:end -->
 
 <p align="center"><sub>📡 Transmission ends. The truth is out there, probably in the logs.</sub></p>
