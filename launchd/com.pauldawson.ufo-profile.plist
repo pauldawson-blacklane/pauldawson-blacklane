@@ -6,9 +6,9 @@
   <key>ProgramArguments</key>
   <array>
     <string>/opt/homebrew/bin/python3</string>
-    <string>/Users/paul.dawson/Desktop/development/pauldawson-blacklane/weekly.py</string>
+    <string>/Users/paul.dawson/Developer/pauldawson-blacklane/weekly.py</string>
   </array>
-  <key>WorkingDirectory</key><string>/Users/paul.dawson/Desktop/development/pauldawson-blacklane</string>
+  <key>WorkingDirectory</key><string>/Users/paul.dawson/Developer/pauldawson-blacklane</string>
   <key>EnvironmentVariables</key>
   <dict>
     <key>PATH</key><string>/Users/paul.dawson/.local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
@@ -22,7 +22,7 @@
     <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
     <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
   </array>
-  <key>StandardOutPath</key><string>/Users/paul.dawson/Desktop/development/pauldawson-blacklane/logs/ufo.log</string>
-  <key>StandardErrorPath</key><string>/Users/paul.dawson/Desktop/development/pauldawson-blacklane/logs/ufo.log</string>
+  <key>StandardOutPath</key><string>/Users/paul.dawson/Developer/pauldawson-blacklane/logs/ufo.log</string>
+  <key>StandardErrorPath</key><string>/Users/paul.dawson/Developer/pauldawson-blacklane/logs/ufo.log</string>
 </dict>
 </plist>

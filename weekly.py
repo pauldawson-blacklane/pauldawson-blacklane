@@ -271,7 +271,7 @@ def main():
     log(f"run for {today} (week {monday}); dry_run={a.dry_run} claude={use_claude}")
 
     if not a.dry_run:
-        git("pull", "--rebase", "--quiet", "origin", "main")
+        git("pull", "--rebase", "--autostash", "--quiet", "origin", "main")
 
     state = load_state()
     week = state["weeks"].setdefault(monday.isoformat(), {"wisdom": {}})
