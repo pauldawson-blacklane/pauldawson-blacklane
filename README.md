@@ -8,6 +8,7 @@
 - **Monday:** If your CI role can `iam:PassRole` to `*`, your pipeline isn't deploying code, it's deploying an attacker's ambitions.
 - **Tuesday:** Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.
 - **Wednesday:** A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys.
+- **Thursday:** If a pod can reach `169.254.169.254`, it can wear your node's IAM role; enforce IMDSv2 with hop limit 1 or accept every container as a potential admin.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
