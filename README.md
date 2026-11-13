@@ -9,6 +9,7 @@
 - **Tuesday:** Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.
 - **Wednesday:** A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys.
 - **Thursday:** If a pod can reach `169.254.169.254`, it can wear your node's IAM role; enforce IMDSv2 with hop limit 1 or accept every container as a potential admin.
+- **Friday:** An alert nobody has ever acted on is not monitoring, it's noise with a pager; delete it or write the runbook before it trains your team to ignore the real one.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board

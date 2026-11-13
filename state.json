@@ -3,6 +3,7 @@
     "2026-11-09": {
       "banner": "original launch design: deep space, code, classic",
       "wisdom": {
+        "Fri": "An alert nobody has ever acted on is not monitoring, it's noise with a pager; delete it or write the runbook before it trains your team to ignore the real one.",
         "Mon": "If your CI role can `iam:PassRole` to `*`, your pipeline isn't deploying code, it's deploying an attacker's ambitions.",
         "Thu": "If a pod can reach `169.254.169.254`, it can wear your node's IAM role; enforce IMDSv2 with hop limit 1 or accept every container as a potential admin.",
         "Tue": "Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.",
