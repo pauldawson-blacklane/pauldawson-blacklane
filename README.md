@@ -3,13 +3,9 @@
 </p>
 
 <!-- wisdom:start -->
-### 🧠 Words of wisdom · week of 9 Nov 2026
+### 🧠 Words of wisdom · week of 16 Nov 2026
 
-- **Monday:** If your CI role can `iam:PassRole` to `*`, your pipeline isn't deploying code, it's deploying an attacker's ambitions.
-- **Tuesday:** Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.
-- **Wednesday:** A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys.
-- **Thursday:** If a pod can reach `169.254.169.254`, it can wear your node's IAM role; enforce IMDSv2 with hop limit 1 or accept every container as a potential admin.
-- **Friday:** An alert nobody has ever acted on is not monitoring, it's noise with a pager; delete it or write the runbook before it trains your team to ignore the real one.
+- **Monday:** Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
@@ -32,7 +28,7 @@
 
 <table>
 <tr><th>Month</th><th colspan="5">Mondays · click a date to see that week's UFO and words of wisdom</th></tr>
-<tr><td><b>Nov 2026</b></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-09/README.md">🛸 <b>9</b></a></td><td></td><td></td><td></td><td></td></tr>
+<tr><td><b>Nov 2026</b></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-09/README.md">9</a></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-16/README.md">🛸 <b>16</b></a></td><td></td><td></td><td></td></tr>
 </table>
 <!-- calendar:end -->
 

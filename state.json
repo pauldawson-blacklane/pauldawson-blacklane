@@ -9,6 +9,12 @@
         "Tue": "Pin your GitHub Actions to a commit SHA, not a tag: tags are promises, SHAs are contracts, and attackers only honor one of them.",
         "Wed": "A secret you rotated after the leak is a cleanup; a secret that expires on its own is a design. Prefer short-lived `sts:AssumeRole` over long-lived keys."
       }
+    },
+    "2026-11-16": {
+      "banner": "Claude: On a frozen arctic night under a shimmering aurora, a flying saucer beams a golden key, a padlock and a rubber duck up out of an open .env crate beside a server igloo, while a scarf-wearing penguin ho",
+      "wisdom": {
+        "Mon": "Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod."
+      }
     }
   }
 }
