@@ -6,6 +6,7 @@
 ### 🧠 Words of wisdom · week of 16 Nov 2026
 
 - **Monday:** Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.
+- **Tuesday:** Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
