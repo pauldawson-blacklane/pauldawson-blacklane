@@ -7,6 +7,7 @@
 
 - **Monday:** Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.
 - **Tuesday:** Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.
+- **Wednesday:** Whoever can `create pods` in a namespace can mount every secret and service account in it; review RBAC by what a pod can become, not by what the verb says.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board

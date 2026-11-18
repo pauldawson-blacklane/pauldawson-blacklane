@@ -14,7 +14,8 @@
       "banner": "Claude: On a frozen arctic night under a shimmering aurora, a flying saucer beams a golden key, a padlock and a rubber duck up out of an open .env crate beside a server igloo, while a scarf-wearing penguin ho",
       "wisdom": {
         "Mon": "Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.",
-        "Tue": "Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill."
+        "Tue": "Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.",
+        "Wed": "Whoever can `create pods` in a namespace can mount every secret and service account in it; review RBAC by what a pod can become, not by what the verb says."
       }
     }
   }
