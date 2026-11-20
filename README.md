@@ -9,6 +9,7 @@
 - **Tuesday:** Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.
 - **Wednesday:** Whoever can `create pods` in a namespace can mount every secret and service account in it; review RBAC by what a pod can become, not by what the verb says.
 - **Thursday:** An OIDC trust policy without a `sub` condition trusts every repo on GitHub; pin it to your repo and branch before a stranger's workflow assumes the role.
+- **Friday:** A `pull_request_target` workflow that checks out the PR head runs a stranger's code with your secrets; review the trigger before you review the diff.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board

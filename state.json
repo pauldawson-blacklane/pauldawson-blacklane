@@ -13,6 +13,7 @@
     "2026-11-16": {
       "banner": "Claude: On a frozen arctic night under a shimmering aurora, a flying saucer beams a golden key, a padlock and a rubber duck up out of an open .env crate beside a server igloo, while a scarf-wearing penguin ho",
       "wisdom": {
+        "Fri": "A `pull_request_target` workflow that checks out the PR head runs a stranger's code with your secrets; review the trigger before you review the diff.",
         "Mon": "Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.",
         "Thu": "An OIDC trust policy without a `sub` condition trusts every repo on GitHub; pin it to your repo and branch before a stranger's workflow assumes the role.",
         "Tue": "Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.",
