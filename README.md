@@ -3,13 +3,9 @@
 </p>
 
 <!-- wisdom:start -->
-### 🧠 Words of wisdom · week of 16 Nov 2026
+### 🧠 Words of wisdom · week of 23 Nov 2026
 
-- **Monday:** Your Terraform state file is a plaintext map of every secret you thought you hid; encrypt the backend and lock it down like prod, because it is prod.
-- **Tuesday:** Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.
-- **Wednesday:** Whoever can `create pods` in a namespace can mount every secret and service account in it; review RBAC by what a pod can become, not by what the verb says.
-- **Thursday:** An OIDC trust policy without a `sub` condition trusts every repo on GitHub; pin it to your repo and branch before a stranger's workflow assumes the role.
-- **Friday:** A `pull_request_target` workflow that checks out the PR head runs a stranger's code with your secrets; review the trigger before you review the diff.
+- **Monday:** An S3 bucket policy with `Principal: *` and no `aws:PrincipalOrgID` condition is a public bucket with extra steps; scope it to your org, not your optimism.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
@@ -32,7 +28,7 @@
 
 <table>
 <tr><th>Month</th><th colspan="5">Mondays · click a date to see that week's UFO and words of wisdom</th></tr>
-<tr><td><b>Nov 2026</b></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-09/README.md">9</a></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-16/README.md">🛸 <b>16</b></a></td><td></td><td></td><td></td></tr>
+<tr><td><b>Nov 2026</b></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-09/README.md">9</a></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-16/README.md">16</a></td><td align="center"><a href="https://github.com/pauldawson-blacklane/pauldawson-blacklane/blob/ufo-2026-11-23/README.md">🛸 <b>23</b></a></td><td></td><td></td></tr>
 </table>
 <!-- calendar:end -->
 

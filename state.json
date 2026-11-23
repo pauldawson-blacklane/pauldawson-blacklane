@@ -19,6 +19,12 @@
         "Tue": "Audit logs you've never queried under pressure aren't evidence, they're a storage bill; rehearse the CloudTrail hunt before an incident forces the drill.",
         "Wed": "Whoever can `create pods` in a namespace can mount every secret and service account in it; review RBAC by what a pod can become, not by what the verb says."
       }
+    },
+    "2026-11-23": {
+      "banner": "built-in generator: deep ocean, shield, crystals",
+      "wisdom": {
+        "Mon": "An S3 bucket policy with `Principal: *` and no `aws:PrincipalOrgID` condition is a public bucket with extra steps; scope it to your org, not your optimism."
+      }
     }
   }
 }
