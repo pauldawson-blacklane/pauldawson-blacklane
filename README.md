@@ -9,6 +9,7 @@
 - **Tuesday:** A container image tagged `latest` is a rumor, not a release; deploy by digest and verify the signature at admission, or you're running whatever the registry says today.
 - **Wednesday:** Break-glass access that nobody has tested is just a locked door during the fire; drill the emergency role quarterly and alert loudly every time it's used.
 - **Thursday:** A namespace without a default-deny `NetworkPolicy` is a flat network wearing YAML; deny everything first, then allow only the traffic you can explain.
+- **Friday:** A lockfile you don't commit is a dependency tree you don't own; run `npm ci`, not `npm install`, so CI builds what you reviewed, not what shipped overnight.
 <!-- wisdom:end -->
 
 ### 👽 Equipment on board
